@@ -1,0 +1,11 @@
+# 10 => 1 2 4 5 7 8 10
+
+a = int(input())
+
+for i in range(1,a+1):
+    if(i % 3 == 0):
+        continue
+    else:
+        print(i, end=" ")
+        
+
